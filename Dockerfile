@@ -6,4 +6,4 @@ RUN go build main.go
 
 ENV PATH=/tmp:$PATH
 
-CMD ["sh", "-c", "main", "a"]
+CMD ["main", "a"]
