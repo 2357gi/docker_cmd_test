@@ -6,6 +6,4 @@ RUN go build main.go
 
 ENV PATH=/tmp:$PATH
 
-ENTRYPOINT [ "main" ]
-
-# CMD ["sh", "-c", "main", "a"]
+CMD ["sh", "-c", "main", "a"]
